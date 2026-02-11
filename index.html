@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catch the Cat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    
+    <header class="game-header">
+      <h1>🐱 Catch the Cat, it's so fun</h1>
+       <div class="score-box">
+        Times: <span id="time">30</span>
+      </div>
+      <div class="score-box">
+        Score <span id="score">0</span>
+      </div>
+    </header>
+
+    <div class="game-area">
+      <div id="cat" class="cat"></div>
+    </div>
+
+    <div class="controls">
+      <button id="start-button" class="btn primary">Start</button>
+      <button id="pause-button" class="btn secondary">Pause</button>
+      <button id="stop-button" class="btn danger">Stop</button>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
